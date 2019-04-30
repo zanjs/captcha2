@@ -19,6 +19,7 @@ func init() {
 	endingBeepSound = changeSpeed(beepSound, 1.4)
 }
 
+// Audio is
 type Audio struct {
 	body        *bytes.Buffer
 	digitSounds [][]byte
